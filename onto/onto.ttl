@@ -1,0 +1,106 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsp: <http://www.owl-ontologies.com/2005/08/07/xsp.owl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix family: <http://exemple.org/famille#> .
+
+
+
+
+### Les classes ###
+
+
+family:Femme a rdfs:Class ;
+             rdfs:label "Femme" ;
+             rdfs:subClassOf family:Personne .
+
+
+family:Homme a rdfs:Class ;
+             rdfs:label "Homme" ;
+             rdfs:subClassOf family:Personne .
+                             
+
+
+family:Parent a rdfs:Class ;
+              rdfs:label "Parent" ;
+              rdfs:subClassOf family:Personne .
+
+
+family:Mere a rdfs:Class ;
+            rdfs:label "Mere" ;
+            rdfs:subClassOf family:Femme ,
+                            family:Parent .
+
+
+
+family:Pere a rdfs:Class ;
+            rdfs:label "Pere" ;
+            rdfs:subClassOf family:Homme ,
+                            family:Parent .
+
+
+
+family:Personne a rdfs:Class ;
+                rdfs:label "Personne" ;
+                owl:sameAs foaf:Person .
+
+
+
+
+### Les propiétés ###
+
+
+
+family:a_enfant a rdf:Property ;
+              rdf:type owl:InverseFunctionalProperty ;
+              rdfs:domain family:Personne ;
+              rdfs:range family:Personne .
+
+
+family:a_fille a rdf:Property ;
+             rdfs:subPropertyOf family:enfant ;
+             rdfs:domain family:Personne ;
+             rdfs:range family:Femme .
+
+
+family:a_fils a rdf:Property ;
+            rdfs:subPropertyOf family:enfant ;
+            rdfs:domain family:Personne ;
+            rdfs:range family:Homme .
+
+
+family:a_frereSoeur a rdf:Property ;
+                  rdfs:domain family:Personne ;
+                  rdfs:range family:Personne .
+
+
+family:a_frere a rdf:Property ;
+             rdfs:subPropertyOf family:frereSoeur ;
+             rdfs:domain family:Personne ;
+             rdfs:range family:Homme .
+
+
+family:a_soeur a rdf:Property ;
+             rdfs:subPropertyOf family:frereSoeur ;
+             rdfs:domain family:Personne ;
+             rdfs:range family:Femme .
+
+
+family:a_parent a rdf:Property ;
+              rdfs:domain family:Personne ;
+              rdfs:range family:Parent .
+
+
+family:a_pere a rdf:Property ;
+            rdfs:subPropertyOf family:parent ;
+            rdfs:domain family:Personne ;
+            rdfs:range family:Pere .
+
+
+family:a_mere a rdf:Property ;
+            rdfs:subPropertyOf family:parent ;
+            rdfs:domain family:Personne ;
+            rdfs:range family:Mere .
