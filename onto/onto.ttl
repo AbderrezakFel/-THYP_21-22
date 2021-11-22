@@ -55,51 +55,60 @@ family:Personne a rdfs:Class ;
 
 
 family:a_enfant a rdf:Property ;
+              rdfs:label "Une personne possede un enfant" ;
               rdfs:domain family:Personne ;
               rdfs:range family:Personne .
 
 
 family:a_fille a rdf:Property ;
+             rdfs:label "Une personne possede une fille" ;
              rdfs:subPropertyOf family:enfant ;
              rdfs:domain family:Personne ;
              rdfs:range family:Femme .
 
 
 family:a_fils a rdf:Property ;
+            rdfs:label "Une personne possede un fils" ;
             rdfs:subPropertyOf family:enfant ;
             rdfs:domain family:Personne ;
             rdfs:range family:Homme .
 
 
 family:a_frereSoeur a rdf:Property ;
+                  rdfs:label "Une personne possede une soeur ou un frere" ;
                   rdfs:domain family:Personne ;
                   rdfs:range family:Personne .
 
 
 family:a_frere a rdf:Property ;
+             rdfs:label "Une personne possede un frere" ;
              rdfs:subPropertyOf family:frereSoeur ;
              rdfs:domain family:Personne ;
              rdfs:range family:Homme .
 
 
 family:a_soeur a rdf:Property ;
+             rdfs:label "Une personne possede une soeur" ;
              rdfs:subPropertyOf family:frereSoeur ;
              rdfs:domain family:Personne ;
              rdfs:range family:Femme .
 
 
 family:a_parent a rdf:Property ;
+              rdfs:label "Une personne possede un parent" ;
               rdfs:domain family:Personne ;
               rdfs:range family:Parent .
 
 
 family:a_pere a rdf:Property ;
+            rdfs:label "Une personne possede un pere" ;
             rdfs:subPropertyOf family:parent ;
             rdfs:domain family:Personne ;
             rdfs:range family:Pere .
 
 
 family:a_mere a rdf:Property ;
+            rdfs:label "Une personne possede une mere" ;
             rdfs:subPropertyOf family:parent ;
             rdfs:domain family:Personne ;
             rdfs:range family:Mere .
