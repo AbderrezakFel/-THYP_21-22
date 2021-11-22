@@ -1,1 +1,1 @@
-Vocabulair "famille" Lien vers API omeka à insérer ici
+Vocabulair "famille" Lien http://localhost/omeka/admin/item/9
