@@ -4,7 +4,7 @@
                 if(data[i]["Dans quel parcours êtes vous inscris ?"]=="M2 THYP"){
 
                     html = `
-                        <div class="col-6">
+                        <div class="col-6 col-md-4"">
                             <div class="p-3 border bg-light">
                                 <img src="`+data[i]["Votre photo"]+`">
                                 <h2>`+ data[i]["Votre nom"] +` `+ data[i]["Votre prénom"] +`</h2>
