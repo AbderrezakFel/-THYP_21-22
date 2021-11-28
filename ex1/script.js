@@ -13,7 +13,7 @@
                                 <p>`+ data[i]["Dans quel parcours êtes vous inscris ?"] +`</p>
                             </div>`;
 
-                    d3.select(".col-6 col-md-4").append("p").html(html);
+                    d3.select(".row").append("p").html(html);
                 }
             }
 
