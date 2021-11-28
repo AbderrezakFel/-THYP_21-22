@@ -1,8 +1,10 @@
 # Abderrezak FELIACHI
 
-## Déscription du projet
+## Lien vers ex1
 
-* Lien vers ex1 https://abderrezakfel.github.io/THYP_21-22/ex1/index.html
+*  https://abderrezakfel.github.io/THYP_21-22/ex1/index.html
 
-* OMK lien
+## Lien vers omk
+
+* https://abderrezakfel.github.io/THYP_21-22/omk/index.html
 
