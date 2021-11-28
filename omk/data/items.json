@@ -1,0 +1,550 @@
+[
+  {
+    "@context": "http://localhost/omeka/api-context",
+    "@id": "http://localhost/omeka/api/items/7",
+    "@type": [
+      "o:Item",
+      "family:Homme"
+    ],
+    "o:id": 7,
+    "o:is_public": true,
+    "o:owner": {
+      "@id": "http://localhost/omeka/api/users/1",
+      "o:id": 1
+    },
+    "o:resource_class": {
+      "@id": "http://localhost/omeka/api/resource_classes/214",
+      "o:id": 214
+    },
+    "o:resource_template": {
+      "@id": "http://localhost/omeka/api/resource_templates/10",
+      "o:id": 10
+    },
+    "o:thumbnail": null,
+    "o:title": "James",
+    "thumbnail_display_urls": {
+      "large": null,
+      "medium": null,
+      "square": null
+    },
+    "o:created": {
+      "@value": "2021-11-21T23:51:32+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:modified": {
+      "@value": "2021-11-28T16:42:52+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:media": [],
+    "o:item_set": [],
+    "o:site": [],
+    "dcterms:title": [
+      {
+        "type": "literal",
+        "property_id": 1,
+        "property_label": "Title",
+        "is_public": true,
+        "@value": "James"
+      }
+    ],
+    "family:a_fils": [
+      {
+        "type": "resource",
+        "property_id": 229,
+        "property_label": "a_fils",
+        "is_public": true,
+        "@id": "http://localhost/omeka/api/items/9",
+        "value_resource_id": 9,
+        "value_resource_name": "items",
+        "url": null,
+        "display_title": "Kyle"
+      }
+    ]
+  },
+  {
+    "@context": "http://localhost/omeka/api-context",
+    "@id": "http://localhost/omeka/api/items/8",
+    "@type": [
+      "o:Item",
+      "family:Femme"
+    ],
+    "o:id": 8,
+    "o:is_public": true,
+    "o:owner": {
+      "@id": "http://localhost/omeka/api/users/1",
+      "o:id": 1
+    },
+    "o:resource_class": {
+      "@id": "http://localhost/omeka/api/resource_classes/213",
+      "o:id": 213
+    },
+    "o:resource_template": {
+      "@id": "http://localhost/omeka/api/resource_templates/9",
+      "o:id": 9
+    },
+    "o:thumbnail": null,
+    "o:title": "Karen",
+    "thumbnail_display_urls": {
+      "large": null,
+      "medium": null,
+      "square": null
+    },
+    "o:created": {
+      "@value": "2021-11-21T23:52:08+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:modified": {
+      "@value": "2021-11-28T16:43:16+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:media": [],
+    "o:item_set": [],
+    "o:site": [],
+    "dcterms:title": [
+      {
+        "type": "literal",
+        "property_id": 1,
+        "property_label": "Title",
+        "is_public": true,
+        "@value": "Karen"
+      }
+    ],
+    "family:a_fils": [
+      {
+        "type": "resource",
+        "property_id": 229,
+        "property_label": "a_fils",
+        "is_public": true,
+        "@id": "http://localhost/omeka/api/items/9",
+        "value_resource_id": 9,
+        "value_resource_name": "items",
+        "url": null,
+        "display_title": "Kyle"
+      }
+    ]
+  },
+  {
+    "@context": "http://localhost/omeka/api-context",
+    "@id": "http://localhost/omeka/api/items/9",
+    "@type": [
+      "o:Item",
+      "family:Homme"
+    ],
+    "o:id": 9,
+    "o:is_public": true,
+    "o:owner": {
+      "@id": "http://localhost/omeka/api/users/1",
+      "o:id": 1
+    },
+    "o:resource_class": {
+      "@id": "http://localhost/omeka/api/resource_classes/214",
+      "o:id": 214
+    },
+    "o:resource_template": {
+      "@id": "http://localhost/omeka/api/resource_templates/14",
+      "o:id": 14
+    },
+    "o:thumbnail": null,
+    "o:title": "Kyle",
+    "thumbnail_display_urls": {
+      "large": null,
+      "medium": null,
+      "square": null
+    },
+    "o:created": {
+      "@value": "2021-11-21T23:52:52+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:modified": {
+      "@value": "2021-11-28T17:11:35+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:media": [],
+    "o:item_set": [],
+    "o:site": [],
+    "dcterms:title": [
+      {
+        "type": "literal",
+        "property_id": 1,
+        "property_label": "Title",
+        "is_public": true,
+        "@value": "Kyle"
+      }
+    ],
+    "family:a_mere": [
+      {
+        "type": "resource",
+        "property_id": 235,
+        "property_label": "a_mere",
+        "is_public": true,
+        "@id": "http://localhost/omeka/api/items/8",
+        "value_resource_id": 8,
+        "value_resource_name": "items",
+        "url": null,
+        "display_title": "Karen"
+      }
+    ],
+    "family:a_pere": [
+      {
+        "type": "resource",
+        "property_id": 234,
+        "property_label": "a_pere",
+        "is_public": true,
+        "@id": "http://localhost/omeka/api/items/7",
+        "value_resource_id": 7,
+        "value_resource_name": "items",
+        "url": null,
+        "display_title": "James"
+      }
+    ]
+  },
+  {
+    "@context": "http://localhost/omeka/api-context",
+    "@id": "http://localhost/omeka/api/items/10",
+    "@type": [
+      "o:Item",
+      "family:Homme"
+    ],
+    "o:id": 10,
+    "o:is_public": true,
+    "o:owner": {
+      "@id": "http://localhost/omeka/api/users/1",
+      "o:id": 1
+    },
+    "o:resource_class": {
+      "@id": "http://localhost/omeka/api/resource_classes/214",
+      "o:id": 214
+    },
+    "o:resource_template": {
+      "@id": "http://localhost/omeka/api/resource_templates/12",
+      "o:id": 12
+    },
+    "o:thumbnail": null,
+    "o:title": "Ahmed",
+    "thumbnail_display_urls": {
+      "large": null,
+      "medium": null,
+      "square": null
+    },
+    "o:created": {
+      "@value": "2021-11-28T16:38:34+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:modified": {
+      "@value": "2021-11-28T16:50:02+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:media": [],
+    "o:item_set": [],
+    "o:site": [],
+    "dcterms:title": [
+      {
+        "type": "literal",
+        "property_id": 1,
+        "property_label": "Title",
+        "is_public": true,
+        "@value": "Ahmed"
+      }
+    ],
+    "family:a_frere": [
+      {
+        "type": "resource",
+        "property_id": 231,
+        "property_label": "a_frere",
+        "is_public": true,
+        "@id": "http://localhost/omeka/api/items/11",
+        "value_resource_id": 11,
+        "value_resource_name": "items",
+        "url": null,
+        "display_title": "Ali"
+      }
+    ]
+  },
+  {
+    "@context": "http://localhost/omeka/api-context",
+    "@id": "http://localhost/omeka/api/items/11",
+    "@type": [
+      "o:Item",
+      "family:Homme"
+    ],
+    "o:id": 11,
+    "o:is_public": true,
+    "o:owner": {
+      "@id": "http://localhost/omeka/api/users/1",
+      "o:id": 1
+    },
+    "o:resource_class": {
+      "@id": "http://localhost/omeka/api/resource_classes/214",
+      "o:id": 214
+    },
+    "o:resource_template": {
+      "@id": "http://localhost/omeka/api/resource_templates/12",
+      "o:id": 12
+    },
+    "o:thumbnail": null,
+    "o:title": "Ali",
+    "thumbnail_display_urls": {
+      "large": null,
+      "medium": null,
+      "square": null
+    },
+    "o:created": {
+      "@value": "2021-11-28T16:38:57+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:modified": {
+      "@value": "2021-11-28T16:49:48+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:media": [],
+    "o:item_set": [],
+    "o:site": [],
+    "dcterms:title": [
+      {
+        "type": "literal",
+        "property_id": 1,
+        "property_label": "Title",
+        "is_public": true,
+        "@value": "Ali"
+      }
+    ],
+    "family:a_frere": [
+      {
+        "type": "resource",
+        "property_id": 231,
+        "property_label": "a_frere",
+        "is_public": true,
+        "@id": "http://localhost/omeka/api/items/10",
+        "value_resource_id": 10,
+        "value_resource_name": "items",
+        "url": null,
+        "display_title": "Ahmed"
+      }
+    ],
+    "family:a_fille": [
+      {
+        "type": "resource",
+        "property_id": 228,
+        "property_label": "a_fille",
+        "is_public": true,
+        "@id": "http://localhost/omeka/api/items/14",
+        "value_resource_id": 14,
+        "value_resource_name": "items",
+        "url": null,
+        "display_title": "Abir"
+      }
+    ]
+  },
+  {
+    "@context": "http://localhost/omeka/api-context",
+    "@id": "http://localhost/omeka/api/items/12",
+    "@type": [
+      "o:Item",
+      "family:Femme"
+    ],
+    "o:id": 12,
+    "o:is_public": true,
+    "o:owner": {
+      "@id": "http://localhost/omeka/api/users/1",
+      "o:id": 1
+    },
+    "o:resource_class": {
+      "@id": "http://localhost/omeka/api/resource_classes/213",
+      "o:id": 213
+    },
+    "o:resource_template": {
+      "@id": "http://localhost/omeka/api/resource_templates/12",
+      "o:id": 12
+    },
+    "o:thumbnail": null,
+    "o:title": "Amina",
+    "thumbnail_display_urls": {
+      "large": null,
+      "medium": null,
+      "square": null
+    },
+    "o:created": {
+      "@value": "2021-11-28T16:40:46+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:modified": {
+      "@value": "2021-11-28T16:47:37+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:media": [],
+    "o:item_set": [],
+    "o:site": [],
+    "dcterms:title": [
+      {
+        "type": "literal",
+        "property_id": 1,
+        "property_label": "Title",
+        "is_public": true,
+        "@value": "Amina"
+      }
+    ],
+    "family:a_frere": [
+      {
+        "type": "resource",
+        "property_id": 231,
+        "property_label": "a_frere",
+        "is_public": true,
+        "@id": "http://localhost/omeka/api/items/13",
+        "value_resource_id": 13,
+        "value_resource_name": "items",
+        "url": null,
+        "display_title": "Abdou"
+      }
+    ],
+    "family:a_fille": [
+      {
+        "type": "resource",
+        "property_id": 228,
+        "property_label": "a_fille",
+        "is_public": true,
+        "@id": "http://localhost/omeka/api/items/14",
+        "value_resource_id": 14,
+        "value_resource_name": "items",
+        "url": null,
+        "display_title": "Abir"
+      }
+    ]
+  },
+  {
+    "@context": "http://localhost/omeka/api-context",
+    "@id": "http://localhost/omeka/api/items/13",
+    "@type": [
+      "o:Item",
+      "family:Homme"
+    ],
+    "o:id": 13,
+    "o:is_public": true,
+    "o:owner": {
+      "@id": "http://localhost/omeka/api/users/1",
+      "o:id": 1
+    },
+    "o:resource_class": {
+      "@id": "http://localhost/omeka/api/resource_classes/214",
+      "o:id": 214
+    },
+    "o:resource_template": {
+      "@id": "http://localhost/omeka/api/resource_templates/11",
+      "o:id": 11
+    },
+    "o:thumbnail": null,
+    "o:title": "Abdou",
+    "thumbnail_display_urls": {
+      "large": null,
+      "medium": null,
+      "square": null
+    },
+    "o:created": {
+      "@value": "2021-11-28T16:41:12+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:modified": {
+      "@value": "2021-11-28T16:41:12+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:media": [],
+    "o:item_set": [],
+    "o:site": [],
+    "dcterms:title": [
+      {
+        "type": "literal",
+        "property_id": 1,
+        "property_label": "Title",
+        "is_public": true,
+        "@value": "Abdou"
+      }
+    ],
+    "family:a_soeur": [
+      {
+        "type": "resource",
+        "property_id": 232,
+        "property_label": "a_soeur",
+        "is_public": true,
+        "@id": "http://localhost/omeka/api/items/12",
+        "value_resource_id": 12,
+        "value_resource_name": "items",
+        "url": null,
+        "display_title": "Amina"
+      }
+    ]
+  },
+  {
+    "@context": "http://localhost/omeka/api-context",
+    "@id": "http://localhost/omeka/api/items/14",
+    "@type": [
+      "o:Item",
+      "family:Femme"
+    ],
+    "o:id": 14,
+    "o:is_public": true,
+    "o:owner": {
+      "@id": "http://localhost/omeka/api/users/1",
+      "o:id": 1
+    },
+    "o:resource_class": {
+      "@id": "http://localhost/omeka/api/resource_classes/213",
+      "o:id": 213
+    },
+    "o:resource_template": {
+      "@id": "http://localhost/omeka/api/resource_templates/13",
+      "o:id": 13
+    },
+    "o:thumbnail": null,
+    "o:title": "Abir",
+    "thumbnail_display_urls": {
+      "large": null,
+      "medium": null,
+      "square": null
+    },
+    "o:created": {
+      "@value": "2021-11-28T16:46:19+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:modified": {
+      "@value": "2021-11-28T16:46:19+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:media": [],
+    "o:item_set": [],
+    "o:site": [],
+    "dcterms:title": [
+      {
+        "type": "literal",
+        "property_id": 1,
+        "property_label": "Title",
+        "is_public": true,
+        "@value": "Abir"
+      }
+    ],
+    "family:a_mere": [
+      {
+        "type": "resource",
+        "property_id": 235,
+        "property_label": "a_mere",
+        "is_public": true,
+        "@id": "http://localhost/omeka/api/items/12",
+        "value_resource_id": 12,
+        "value_resource_name": "items",
+        "url": null,
+        "display_title": "Amina"
+      }
+    ],
+    "family:a_pere": [
+      {
+        "type": "resource",
+        "property_id": 234,
+        "property_label": "a_pere",
+        "is_public": true,
+        "@id": "http://localhost/omeka/api/items/11",
+        "value_resource_id": 11,
+        "value_resource_name": "items",
+        "url": null,
+        "display_title": "Ali"
+      }
+    ]
+  }
+]

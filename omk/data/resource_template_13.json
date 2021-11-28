@@ -1,0 +1,63 @@
+{
+  "@context": "http://localhost/omeka/api-context",
+  "@id": "http://localhost/omeka/api/resource_templates/13",
+  "@type": "o:ResourceTemplate",
+  "o:id": 13,
+  "o:label": "Fille_de",
+  "o:owner": {
+    "@id": "http://localhost/omeka/api/users/1",
+    "o:id": 1
+  },
+  "o:resource_class": {
+    "@id": "http://localhost/omeka/api/resource_classes/213",
+    "o:id": 213
+  },
+  "o:title_property": null,
+  "o:description_property": null,
+  "o:resource_template_property": [
+    {
+      "o:property": {
+        "@id": "http://localhost/omeka/api/properties/1",
+        "o:id": 1
+      },
+      "o:alternate_label": null,
+      "o:alternate_comment": null,
+      "o:data_type": [],
+      "o:is_required": false,
+      "o:is_private": false
+    },
+    {
+      "o:property": {
+        "@id": "http://localhost/omeka/api/properties/4",
+        "o:id": 4
+      },
+      "o:alternate_label": null,
+      "o:alternate_comment": null,
+      "o:data_type": [],
+      "o:is_required": false,
+      "o:is_private": false
+    },
+    {
+      "o:property": {
+        "@id": "http://localhost/omeka/api/properties/235",
+        "o:id": 235
+      },
+      "o:alternate_label": null,
+      "o:alternate_comment": null,
+      "o:data_type": [],
+      "o:is_required": false,
+      "o:is_private": false
+    },
+    {
+      "o:property": {
+        "@id": "http://localhost/omeka/api/properties/234",
+        "o:id": 234
+      },
+      "o:alternate_label": null,
+      "o:alternate_comment": null,
+      "o:data_type": [],
+      "o:is_required": false,
+      "o:is_private": false
+    }
+  ]
+}

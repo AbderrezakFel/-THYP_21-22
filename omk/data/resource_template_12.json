@@ -1,0 +1,52 @@
+{
+  "@context": "http://localhost/omeka/api-context",
+  "@id": "http://localhost/omeka/api/resource_templates/12",
+  "@type": "o:ResourceTemplate",
+  "o:id": 12,
+  "o:label": "A_frere",
+  "o:owner": {
+    "@id": "http://localhost/omeka/api/users/1",
+    "o:id": 1
+  },
+  "o:resource_class": {
+    "@id": "http://localhost/omeka/api/resource_classes/218",
+    "o:id": 218
+  },
+  "o:title_property": null,
+  "o:description_property": null,
+  "o:resource_template_property": [
+    {
+      "o:property": {
+        "@id": "http://localhost/omeka/api/properties/1",
+        "o:id": 1
+      },
+      "o:alternate_label": null,
+      "o:alternate_comment": null,
+      "o:data_type": [],
+      "o:is_required": false,
+      "o:is_private": false
+    },
+    {
+      "o:property": {
+        "@id": "http://localhost/omeka/api/properties/4",
+        "o:id": 4
+      },
+      "o:alternate_label": null,
+      "o:alternate_comment": null,
+      "o:data_type": [],
+      "o:is_required": false,
+      "o:is_private": false
+    },
+    {
+      "o:property": {
+        "@id": "http://localhost/omeka/api/properties/231",
+        "o:id": 231
+      },
+      "o:alternate_label": null,
+      "o:alternate_comment": null,
+      "o:data_type": [],
+      "o:is_required": false,
+      "o:is_private": false
+    }
+  ]
+}

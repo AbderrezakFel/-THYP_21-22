@@ -1,0 +1,62 @@
+{
+  "@context": "http://localhost/omeka/api-context",
+  "@id": "http://localhost/omeka/api/items/13",
+  "@type": [
+    "o:Item",
+    "family:Homme"
+  ],
+  "o:id": 13,
+  "o:is_public": true,
+  "o:owner": {
+    "@id": "http://localhost/omeka/api/users/1",
+    "o:id": 1
+  },
+  "o:resource_class": {
+    "@id": "http://localhost/omeka/api/resource_classes/214",
+    "o:id": 214
+  },
+  "o:resource_template": {
+    "@id": "http://localhost/omeka/api/resource_templates/11",
+    "o:id": 11
+  },
+  "o:thumbnail": null,
+  "o:title": "Abdou",
+  "thumbnail_display_urls": {
+    "large": null,
+    "medium": null,
+    "square": null
+  },
+  "o:created": {
+    "@value": "2021-11-28T16:41:12+00:00",
+    "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+  },
+  "o:modified": {
+    "@value": "2021-11-28T16:41:12+00:00",
+    "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+  },
+  "o:media": [],
+  "o:item_set": [],
+  "o:site": [],
+  "dcterms:title": [
+    {
+      "type": "literal",
+      "property_id": 1,
+      "property_label": "Title",
+      "is_public": true,
+      "@value": "Abdou"
+    }
+  ],
+  "family:a_soeur": [
+    {
+      "type": "resource",
+      "property_id": 232,
+      "property_label": "a_soeur",
+      "is_public": true,
+      "@id": "http://localhost/omeka/api/items/12",
+      "value_resource_id": 12,
+      "value_resource_name": "items",
+      "url": null,
+      "display_title": "Amina"
+    }
+  ]
+}

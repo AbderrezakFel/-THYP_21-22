@@ -1,0 +1,75 @@
+{
+  "@context": "http://localhost/omeka/api-context",
+  "@id": "http://localhost/omeka/api/items/12",
+  "@type": [
+    "o:Item",
+    "family:Femme"
+  ],
+  "o:id": 12,
+  "o:is_public": true,
+  "o:owner": {
+    "@id": "http://localhost/omeka/api/users/1",
+    "o:id": 1
+  },
+  "o:resource_class": {
+    "@id": "http://localhost/omeka/api/resource_classes/213",
+    "o:id": 213
+  },
+  "o:resource_template": {
+    "@id": "http://localhost/omeka/api/resource_templates/12",
+    "o:id": 12
+  },
+  "o:thumbnail": null,
+  "o:title": "Amina",
+  "thumbnail_display_urls": {
+    "large": null,
+    "medium": null,
+    "square": null
+  },
+  "o:created": {
+    "@value": "2021-11-28T16:40:46+00:00",
+    "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+  },
+  "o:modified": {
+    "@value": "2021-11-28T16:47:37+00:00",
+    "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+  },
+  "o:media": [],
+  "o:item_set": [],
+  "o:site": [],
+  "dcterms:title": [
+    {
+      "type": "literal",
+      "property_id": 1,
+      "property_label": "Title",
+      "is_public": true,
+      "@value": "Amina"
+    }
+  ],
+  "family:a_frere": [
+    {
+      "type": "resource",
+      "property_id": 231,
+      "property_label": "a_frere",
+      "is_public": true,
+      "@id": "http://localhost/omeka/api/items/13",
+      "value_resource_id": 13,
+      "value_resource_name": "items",
+      "url": null,
+      "display_title": "Abdou"
+    }
+  ],
+  "family:a_fille": [
+    {
+      "type": "resource",
+      "property_id": 228,
+      "property_label": "a_fille",
+      "is_public": true,
+      "@id": "http://localhost/omeka/api/items/14",
+      "value_resource_id": 14,
+      "value_resource_name": "items",
+      "url": null,
+      "display_title": "Abir"
+    }
+  ]
+}
