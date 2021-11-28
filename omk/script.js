@@ -7,7 +7,7 @@
 
                         <div class="col-6">
                             <div class="p-3 border bg-light">
-                                <p>`+ data[i]["o:id"] +` `+ data[i]["o:label"] +`</p>
+                                <p>Resource Id:`+ data[i]["o:id"] +` Label:`+ data[i]["o:label"] +`</p>
                             </div>
                         </div>
                     </div>`;
