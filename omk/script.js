@@ -2,17 +2,12 @@
             
             for (i in data) {
 
-                    html = `
-                    <div class="row gy-5">
+                    html = `<tr>
+                                <th scope="row">`+ data[i]["o:id"] +`</th>
+                                      <td>`+ data[i]["o:label"] +`</td>
+                             </tr>`;
 
-                        <div class="col-6">
-                            <div class="p-3 border bg-light">
-                                <p>Resource Id:`+ data[i]["o:id"] +` Label:`+ data[i]["o:label"] +`</p>
-                            </div>
-                        </div>
-                    </div>`;
-
-                    d3.select(".container").append("p").html(html);
+                    d3.select(".table").append("p").html(html);
                 }
 
         });
