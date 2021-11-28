@@ -4,14 +4,15 @@
                 if(data[i]["Dans quel parcours êtes vous inscris ?"]=="M2 THYP"){
 
                     html = `
-                        
+                        <div class="col-6 col-md-4">
                             <div class="p-3 border bg-light">
                                 <img src="`+data[i]["Votre photo"]+`">
                                 <h2>`+ data[i]["Votre nom"] +` `+ data[i]["Votre prénom"] +`</h2>
                                 <p>`+ data[i]["Votre mail"] +`</p>
                                 <p>`+ data[i]["N° étudiant"] +`</p>
                                 <p>`+ data[i]["Dans quel parcours êtes vous inscris ?"] +`</p>
-                            </div>`;
+                           </div>  
+                        </div>`;
 
                     d3.select(".row").append("p").html(html);
                 }
