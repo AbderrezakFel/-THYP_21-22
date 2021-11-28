@@ -7,7 +7,7 @@
                                       <td>`+ data[i]["o:label"] +`</td>
                              </tr>`;
 
-                    d3.select(".temp").append("p").html(html);
+                    d3.select(".temp").append("tr").html(html);
                 }
 
         });
