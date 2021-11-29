@@ -1,2 +1,7 @@
-Vocabulair "famille"
-Lien vers API omeka http://localhost/omeka/api/item/9
+# Vocabulair "famille"
+
+## Lien vers API des resource templates
+* http://localhost/omeka/api/resource_templates
+
+## Lien vers API des items
+* http://localhost/omeka/api/items
