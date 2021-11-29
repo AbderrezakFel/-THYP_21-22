@@ -13,7 +13,7 @@
         });
 
 
-d3.json("data/items.json", function (data) {
+d3.json("data/item_8.json", function (data) {
             
             for (i in data) {
 
