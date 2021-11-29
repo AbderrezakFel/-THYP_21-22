@@ -8,3 +8,9 @@
 
 * https://abderrezakfel.github.io/THYP_21-22/omk/index.html
 
+## Lien vers la liste des items et ressource templates
+
+* https://github.com/AbderrezakFel/THYP_21-22/tree/main/omk/data
+
+
+
