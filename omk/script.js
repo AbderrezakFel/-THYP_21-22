@@ -19,7 +19,7 @@ d3.json("data/items.json", function (data) {
 
                     html = `<tr>
                                 <th scope="row">`+ data[i]["o:id"] +`</th>
-                                      <td>`+ data[i]["@value"] +`</td>
+                                      <td>`+ data[i]["o:title"] +`</td>
                              </tr>`;
 
                     d3.select(".it").append("tr").html(html);
